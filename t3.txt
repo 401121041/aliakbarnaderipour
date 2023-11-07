@@ -1,0 +1,35 @@
+naderi poor 401121041
+24/7
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    
+    cout<<"please enter an imteger numder :";
+    cin >> n;
+    cout << "you enter : " << n << endl;
+
+    return 0;
+}
+    
+=============
+
+practice get age an user:
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int sen;
+    
+    cout<<"enter your sen :";
+    cin >> sen;
+    cout << "vared konid : " << sen << endl;
+
+    return 0;
+}

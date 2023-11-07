@@ -1,0 +1,9 @@
+  7/17
+#include <iostream>
+using namespace std;
+int main() {
+    char a[] = "Hello c++ students\n";
+    cout << "Hello";
+    cout << a ;
+    return 0;
+}

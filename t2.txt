@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float m, al , at;
+    cout << "please enter a number :\n" ;
+    cin >> m ;
+    alpha = m;
+    for( int c = 0 ;  c <5 ; c++)
+        {
+            at = al * al ;
+            cout << " sqrt :" << m
+            << c << " is : " << at;
+        al= al/2 + m/(al*2) ;
+    }
+    cout << "sqrt of :" << m << " \n is :"  << al ;
+    at= al*al;
+    cout << "\n al ^ 2 Is :" << at;
+    return 0;
+}

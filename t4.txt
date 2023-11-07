@@ -1,0 +1,36 @@
+
+24 mehr
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x,y ;
+    
+    cout<<"please enter two integer number :";
+    cin >> x >> y ;
+    
+    if (x == y ){
+        cout << " x is barabar y " << endl;
+    }
+ if (x != y ){
+        cout << " x is na barabar y " << endl;
+    }
+     if (x > y ){
+        cout << " x is bozorgtar az y " << endl;
+    }
+     if (x < y ){
+        cout << " x is kochac tar az y " << endl;
+    }
+     if (x >= y ){
+        cout << " x is bozorgtar ya mosaviye y " << endl;
+    }
+       if (x <= y ){
+        cout << " x is cochac tar ya mosaviye y " << endl;
+    }
+    cout<< "x: " << x << "\ny: " << y;
+
+
+    return 0;
+}

@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+    float b, al;
+    cout << "please enter number :\n" ;
+    cin >> b ;
+    al= b ;
+    for( int c = 0 ;  c <5 ; c++){
+        a1 = al/2 + b/(al*2) ;
+    }
+    cout << " sqrt:" << b << " \n is :"  << al ;
+    return 0;
+}
